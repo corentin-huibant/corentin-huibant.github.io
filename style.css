@@ -1,0 +1,244 @@
+
+/*écriture d'une animation css qui donne l'impression que le fenêtres s'affichent une par une en changeant leur opacité à différentes intervales de temps*/
+@keyframes attack {
+  0% {opacity: 0;}
+  20% {opacity: 0;}
+  40% {opacity: 0;}
+  60% {opacity: 0;}
+  80% {opacity: 0;}
+  90% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.container-fluid {  /*fond ordinateur CV*/
+  background: #008080;
+  font-family: serif;
+}
+/*Première fenêtre concernant mes inofrmations*/
+#header {
+  border: 4px ridge #BAB3BA;
+  background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+  box-shadow: 1px 1px 2px 1px;
+  z-index: 1;
+  animation-name: attack;
+  animation-duration: 0.1s;
+}
+.head { /*petit entête bleue*/
+  Background: linear-gradient(to right, #04047C, #040C85, #061B8C, #082895, #09369C, #0A45A2, #0C3FA5, #0C51AE, #0C58B2, #0C68BB, #0B72C2, #0C77C6);
+  border: 18% #04047C;
+  height: 21px;
+  font-size: 17px;
+  margin-top: 0%;
+  font-weight: bold;
+  color: white;
+}
+#error { /*bloc d'erreur*/
+  background: white;
+  font-weight: normal;
+  border: groove white;
+  height: 90px;
+  padding-top: 30px;
+}
+#description {
+  padding-top: 3%;
+}
+#smiley {
+  margin: 8% 0% 0% 0%;
+}
+input[title="supress"] { /*boutton supprimer*/
+  background: #BAB3BA;
+  color: black;
+  font-size: 14px;
+  margin-top: 9%;
+  margin-bottom: 9%;
+  float: right;
+}
+/*deuxième fenêtre - les compétences aquises*/
+#comput {
+  background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+  border: 3px ridge #BAB3BA;
+  box-shadow: 1px 1px 2px 1px;
+  z-index: 1;
+  animation-name: attack;
+  animation-duration: 0.2s;
+}
+#navigator {
+  padding: 0%;
+  margin-top: -9px;
+}
+#whiteWindow { /*petit bloc blanc des compétences*/
+  background: white;
+  border: 1px groove #FAFAFA;
+  border: groove white;
+  overflow-x: auto;
+}
+#brain { /*coté gauche de la fenêter des compétences, avec le logo windows*/
+  background: white;
+}
+#brain h3 {
+  font-size: 13px;
+  font-weight: bold;
+}
+#brain p {
+  font-size: 11px;
+}
+#brain li {
+  font-size: 12px;
+  margin-left: -29px;
+  list-style-type: none;
+}
+#comput span {
+  font-size: 10px;
+  float: left;
+}
+.noPadding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  float: left;
+}
+.inline {
+  float: left;
+}
+img[title="brainLogo"] {
+  width: 110px;
+}
+.centerise { /*centralisation des icones sur la "fenêtre" des compétences*/
+  margin-left: 40px;
+  margin-top: 15px;
+}
+#xp { /*troisième bloc - l'expérience*/
+  background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+  border: 3px ridge #BAB3BA;
+  box-shadow: black 1px 1px 2px 1px;
+  animation-name: attack;
+  animation-duration: 0.5s;
+}
+#formation { /*quatrième bloc - la formation*/
+  background: linear-gradient(to right, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+  border: 3px ridge #BAB3BA;
+  box-shadow: 1px 1px 2px 1px;
+  animation-name: attack;
+  animation-duration: 0.7s;
+}
+#formation p {
+  font-size: 15px;
+}
+button[title="reduct"] {
+  height: 19px;
+  width: 19px;
+  background: #BAB3BA;
+  color: black;
+  padding-bottom: 1%;
+}
+button[title="grow"] {
+  height: 19px;
+  width: 19px;
+  background: #BAB3BA;
+  color: black;
+  padding-bottom: 1%;
+}
+button[title="close"] {
+  height: 19px;
+  width: 19px;
+  background: #BAB3BA;
+  color: black;
+  padding-top: -90%;
+}
+.buttonPlace { /*place des boutons fermer, réduir et agrandir de la première fenêtre*/
+  position: absolute;
+  top: 0.1ex;
+  right: 1%;
+}
+footer { /*menu démarrer*/
+  background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+  padding-right: 0 !important;
+}
+#links {
+  border: 2px inset gray;
+  height: 20px;
+  margin-top: -22px;
+}
+#links span {
+  margin-top: 0%;
+}
+img[alt="github"] {
+  width: 15px;
+  margin-bottom: 3px;
+  margin-left: -7px;
+}
+img[alt="linkedin"] {
+  width: 15px;
+  margin-bottom: 3px;
+  margin-left: -7px;
+}
+#openWindow { /*Début de la colone du menu défilant*/
+  background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+  border: 2px outset gray;
+  overflow: auto;
+  padding: 0%;
+  margin-bottom: -0.7px;
+  border-radius: 0;
+}
+#bluebar { /*La barre bleue verticale qui se trouve dans le menu*/
+  width: 100px;
+  background: blue;
+}
+#ongletOne { /*les fausses catégories*/
+  margin-left: 11%;
+  padding-top: 9%;
+  padding-bottom: 9%;
+}
+.onglet {
+  margin-left: 11%;
+  padding-top: 9%;
+  padding-bottom: 9%;
+  margin-top: -11%;
+}
+li[title="error2017"]:hover { /*La superposition bleue*/
+  background-color: #03007A;
+  color: white;
+}
+.direction { /*Petites fléchettes. Attention, elles influent sur les padding des opac*/
+  text-align: right;
+  font-size: 10px;
+  margin-top: -10%;
+}
+#menu { /*boutton menu*/
+  color: #4A494F;
+  background: right #BAB3BA;
+}
+hr {
+  color: blue;
+  size: 10px;
+}
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+p {
+  font-weight: normal;
+  color: black;
+  font-size: 14px;
+}
+ul {
+  font-weight: normal;
+  font-size: 15px;
+  color: black;
+  list-style-type: none;
+}
+li {
+  margin-bottom: 1%;
+}
+a {
+  color: blue;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+span {
+  margin-top: 10px;
+}

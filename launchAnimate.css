@@ -1,0 +1,230 @@
+#cloneComput {
+  background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+  border: 3px ridge #BAB3BA;
+  box-shadow: 1px 1px 2px 1px;
+  z-index: 1;
+  animation-name: attack;
+  animation-duration: 0.5s;
+  margin-top: -960px;
+  margin-left: 50px;
+}
+#cloneComputTwo {
+  background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+  border: 3px ridge #BAB3BA;
+  box-shadow: 1px 1px 2px 1px;
+  z-index: 1;
+  animation-name: attack;
+  animation-duration: 0.9s;
+  margin-top: -940px;
+  margin-left: 80px;
+}
+#cloneComputThree {
+  background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+  border: 3px ridge #BAB3BA;
+  box-shadow: 1px 1px 2px 1px;
+  z-index: 1;
+  animation-name: attack;
+  animation-duration: 1.2s;
+  margin-top: -930px;
+  margin-left: 100px;
+}
+#cloneComputFour {
+  background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+  border: 3px ridge #BAB3BA;
+  box-shadow: 1px 1px 2px 1px;
+  z-index: 1;
+  animation-name: attack;
+  animation-duration: 1.4s;
+  margin-top: -500px;
+  margin-left: 360px;
+}
+#cloneComputFive {
+  background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+  border: 3px ridge #BAB3BA;
+  box-shadow: 1px 1px 2px 1px;
+  z-index: 1;
+  animation-name: attack;
+  animation-duration: 1s;
+  margin-top: -620px;
+  margin-left: -15px;
+}
+#cloneComputSix {
+  background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+  border: 3px ridge #BAB3BA;
+  box-shadow: 1px 1px 2px 1px;
+  z-index: 1;
+  animation-name: attack;
+  animation-duration: 1.3s;
+  margin-top: -960px;
+  margin-left: 50px;
+}
+#headerOne {
+    border: 4px ridge #BAB3BA;
+    background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+    box-shadow: 1px 1px 2px 1px;
+    z-index: 1;
+    animation-name: attack;
+    animation-duration: 0.2s;
+    margin-top: -990px;
+    margin-left: 800px;
+}
+#headerTwo {
+    border: 4px ridge #BAB3BA;
+    background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+    box-shadow: 1px 1px 2px 1px;
+    z-index: 1;
+    animation-name: attack;
+    animation-duration: 0.3s;
+    margin-top: -970px;
+    margin-left: 780px;
+}
+#headerThree {
+    border: 4px ridge #BAB3BA;
+    background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+    box-shadow: 1px 1px 2px 1px;
+    z-index: 1;
+    animation-name: attack;
+    animation-duration: 0.4s;
+    margin-top: -950px;
+    margin-left: 760px;
+}
+#headerFour {
+    border: 4px ridge #BAB3BA;
+    background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+    box-shadow: 1px 1px 2px 1px;
+    z-index: 1;
+    animation-name: attack;
+    animation-duration: 0.5s;
+    margin-top: -930px;
+    margin-left: 740px;
+}
+#headerFive {
+    border: 4px ridge #BAB3BA;
+    background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+    box-shadow: 1px 1px 2px 1px;
+    z-index: 1;
+    animation-name: attack;
+    animation-duration: 0.6s;
+    margin-top: -910px;
+    margin-left: 720px;
+}
+#headerSix {
+    border: 4px ridge #BAB3BA;
+    background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+    box-shadow: 1px 1px 2px 1px;
+    z-index: 1;
+    animation-name: attack;
+    animation-duration: 0.7s;
+    margin-top: -890px;
+    margin-left: 700px;
+}
+#headerSeven {
+    border: 4px ridge #BAB3BA;
+    background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+    box-shadow: 1px 1px 2px 1px;
+    z-index: 1;
+    animation-name: attack;
+    animation-duration: 0.8s;
+    margin-top: -870px;
+    margin-left: 680px;
+}
+#headerEight {
+    border: 4px ridge #BAB3BA;
+    background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+    box-shadow: 1px 1px 2px 1px;
+    z-index: 1;
+    animation-name: attack;
+    animation-duration: 0.3s;
+    margin-top: -1140px;
+    margin-left: -30px;
+}
+#headerNine {
+    border: 4px ridge #BAB3BA;
+    background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+    box-shadow: 1px 1px 2px 1px;
+    z-index: 1;
+    animation-name: attack;
+    animation-duration: 0.9s;
+    margin-top: -850px;
+    margin-left: 700px;
+}
+#headerTen {
+    border: 4px ridge #BAB3BA;
+    background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+    box-shadow: 1px 1px 2px 1px;
+    z-index: 1;
+    animation-name: attack;
+    animation-duration: 1s;
+    margin-top: -870px;
+    margin-left: 720px;
+}
+#headerEleven {
+    border: 4px ridge #BAB3BA;
+    background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+    box-shadow: 1px 1px 2px 1px;
+    z-index: 1;
+    animation-name: attack;
+    animation-duration: 1.1s;
+    margin-top: -890px;
+    margin-left: 740px;
+}
+#headerTwelve {
+    border: 4px ridge #BAB3BA;
+    background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+    box-shadow: 1px 1px 2px 1px;
+    z-index: 1;
+    animation-name: attack;
+    animation-duration: 1.2s;
+    margin-top: -910px;
+    margin-left: 760px;
+}
+#headerThirteen {
+    border: 4px ridge #BAB3BA;
+    background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+    box-shadow: 1px 1px 2px 1px;
+    z-index: 1;
+    animation-name: attack;
+    animation-duration: 1.3s;
+    margin-top: -930px;
+    margin-left: 780px;
+}
+#headerFourteen {
+    border: 4px ridge #BAB3BA;
+    background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+    box-shadow: 1px 1px 2px 1px;
+    z-index: 1;
+    animation-name: attack;
+    animation-duration: 0.5s;
+    margin-top: -1170px;
+    margin-left: -40px;
+}
+#headerFivteen {
+    border: 4px ridge #BAB3BA;
+    background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+    box-shadow: 1px 1px 2px 1px;
+    z-index: 1;
+    animation-name: attack;
+    animation-duration: 0.7s;
+    margin-top: -1200px;
+    margin-left: -50px;
+}
+#headerSixteen {
+    border: 4px ridge #BAB3BA;
+    background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+    box-shadow: 1px 1px 2px 1px;
+    z-index: 2;
+    animation-name: attack;
+    animation-duration: 1.5s;
+    margin-top: -600px;
+    margin-left: 730px;
+}
+#headerSeventeen {
+    border: 4px ridge #BAB3BA;
+    background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
+    box-shadow: 1px 1px 2px 1px;
+    z-index: 2;
+    animation-name: attack;
+    animation-duration: 1.6s;
+    margin-top: -750px;
+    margin-left: 150px;
+}

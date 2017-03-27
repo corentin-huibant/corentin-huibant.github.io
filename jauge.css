@@ -1,0 +1,223 @@
+/*Lancement d'une animation css permettant de faire avancer le contenu de la barre de progression de linux sur un temps donné. L'animation est lancée exactement après l'affichage des blocs exactements.*/
+@keyframes linuxAdvance {
+  0% {width : 0px;}
+  20% {width : 14px;}
+  40% {width : 24px;}
+}
+#progressLinux { /*fausse barre de progression Linux*/
+  background-color: white;
+  border: 1px ridge black;
+  width: 100px;
+}
+#progressLinux:after { /*contenant de la fausse barre de progression*/
+    content: "||||||||||";
+    width: 37px;
+    display: block;
+    overflow: hidden;
+    font: bolder 55px/8px sans-serif;
+    color: #050370;
+    letter-spacing: -10px;
+    margin-left: -5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    animation-name: linuxAdvance;
+    animation-duration: 1.5s;
+}
+/*Lancement d'une animation css permettant de faire avancer le contenu de la barre de progression de windows sur un temps donné. L'animation est lancée exactement après l'affichage des blocs exactements.*/
+@keyframes windowsAdvance {
+  0% {width: 0px;}
+  20% {width: 14px;}
+  40% {width: 24px;}
+  60% {width: 34px;}
+  80% {width: 44px;}
+  100% {width: 54px;}
+}
+#progressWindows { /*fausse barre de progression Windows*/
+  background-color: white;
+  border: 1px ridge black;
+  width: 100px;
+}
+#progressWindows:after { /*contenant de la fausse barre de progression*/
+    content: "||||||||||";
+    width: 54px;
+    display: block;
+    overflow: hidden;
+    font: bolder 55px/8px sans-serif;
+    color: #050370;
+    letter-spacing: -10px;
+    margin-left: -5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    animation-name: windowsAdvance;
+    animation-duration: 2s;
+}
+/*Lancement d'une animation css permettant de faire avancer le contenu de la barre de progression de commande sur un temps donné. L'animation est lancée exactement après l'affichage des blocs exactements.*/
+@keyframes cliAdvance {
+  0% {width : 0px;}
+  20% {width : 14px;}
+}
+#progressCli { /*fausse barre de progression CLI*/
+  background-color: white;
+  border: 1px ridge black;
+  width: 100px;
+}
+#progressCli:after { /*contenant de la fausse barre de progression*/
+    content: "||||||||||";
+    width: 14px;
+    display: block;
+    overflow: hidden;
+    font: bolder 55px/8px sans-serif;
+    color: #050370;
+    letter-spacing: -10px;
+    margin-left: -5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    animation-name: cliAdvance;
+    animation-duration: 2s;
+}
+/*Lancement d'une animation css permettant de faire avancer le contenu de la barre de progression de html/css sur un temps donné. L'animation est lancée exactement après l'affichage des blocs exactements.*/
+@keyframes htmlCssAdvance {
+  0% {width : 0px;}
+  20% {width : 14px;}
+}
+#progressHtmlcss { /*fausse barre de progression html/css*/
+  background-color: white;
+  border: 1px ridge black;
+  width: 100px;
+}
+#progressHtmlcss:after { /*contenant de la fausse barre de progression*/
+    content: "||||||||||";
+    width: 37px;
+    display: block;
+    overflow: hidden;
+    font: bolder 55px/8px sans-serif;
+    color: #050370;
+    letter-spacing: -10px;
+    margin-left: -5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    animation-name: htmlCssAdvance;
+    animation-duration: 1.5s;
+}
+/*Lancement d'une animation css permettant de faire avancer le contenu de la barre de progression de php sur un temps donné. L'animation est lancée exactement après l'affichage des blocs exactements.*/
+@keyframes phpAdvance {
+  0% {width : 0px;}
+  20% {width : 8px;}
+}
+#progressPhp { /*fausse barre de progression php*/
+  background-color: white;
+  border: 1px ridge black;
+  width: 100px;
+}
+#progressPhp:after { /*contenant de la fausse barre de progression*/
+    content: "||||||||||";
+    width: 8px;
+    display: block;
+    overflow: hidden;
+    font: bolder 55px/8px sans-serif;
+    color: #050370;
+    letter-spacing: -10px;
+    margin-left: -5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    animation-name: phpAdvance;
+    animation-duration: 2s;
+}
+/*Lancement d'une animation css permettant de faire avancer le contenu de la barre de progression de git sur un temps donné. L'animation est lancée exactement après l'affichage des blocs exactements.*/
+@keyframes gitAdvance {
+  0% {width: 0px;}
+  20% {width: 14px;}
+  40% {width: 24px;}
+}
+#progressGit { /*fausse barre de progression Git*/
+  background-color: white;
+  border: 1px ridge black;
+  width: 100px;
+}
+#progressGit:after { /*contenant de la fausse barre de progression*/
+    content: "||||||||||";
+    width: 35px;
+    display: block;
+    overflow: hidden;
+    font: bolder 55px/8px sans-serif;
+    color: #050370;
+    letter-spacing: -10px;
+    margin-left: -5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    animation-name: gitAdvance;
+    animation-duration: 2s;
+}
+/*Lancement d'une animation css permettant de faire avancer le contenu de la barre de progression de nano sur un temps donné. L'animation est lancée exactement après l'affichage des blocs exactements.*/
+@keyframes nanoAdvance {
+  0% {width: 0px;}
+  20% {width: 8px;}
+}
+#progressNano { /*fausse barre de progression Nano*/
+  background-color: white;
+  border: 1px ridge black;
+  width: 100px;
+}
+#progressNano:after { /*contenant de la fausse barre de progression*/
+    content: "||||||||||";
+    width: 8px;
+    display: block;
+    overflow: hidden;
+    font: bolder 55px/8px sans-serif;
+    color: #050370;
+    letter-spacing: -10px;
+    margin-left: -5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    animation-name: nanoAdvance;
+    animation-duration: 2s;
+}
+/*Lancement d'une animation css permettant de faire avancer le contenu de la barre de progression de vhost sur un temps donné. L'animation est lancée exactement après l'affichage des blocs exactements.*/
+@keyframes vhostAdvance {
+  0% {width: 0px;}
+  20% {width: 14px;}
+}
+#progressVhost { /*fausse barre de progression Vhost*/
+  background-color: white;
+  border: 1px ridge black;
+  width: 100px;
+}
+#progressVhost:after { /*contenant de la fausse barre de progression*/
+    content: "||||||||||";
+    width: 14px;
+    display: block;
+    overflow: hidden;
+    font: bolder 55px/8px sans-serif;
+    color: #050370;
+    letter-spacing: -10px;
+    margin-left: -5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    animation-name: vhostAdvance;
+    animation-duration: 2s;
+}
+/*Lancement d'une animation css permettant de faire avancer le contenu de la barre de progression de gimp sur un temps donné. L'animation est lancée exactement après l'affichage des blocs exactements.*/
+@keyframes gimpAdvance {
+  0% {width: 0px;}
+  20% {width: 14px;}
+  40% {width: 20px;}
+}
+#progressGimp { /*fausse barre de progression*/
+  background-color: white;
+  border: 1px ridge black;
+  width: 100px;
+}
+#progressGimp:after { /*contenant de la fausse barre de progression*/
+    content: "||||||||||";
+    width: 46px;
+    display: block;
+    overflow: hidden;
+    font: bolder 55px/8px sans-serif;
+    color: #050370;
+    letter-spacing: -10px;
+    margin-left: -5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    animation-name: gimpAdvance;
+    animation-duration: 1.7s;
+}

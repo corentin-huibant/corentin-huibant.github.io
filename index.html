@@ -1,0 +1,998 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <title>HUIBANT Corentin, CV en ligne</title>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-3.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jauge.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="launchAnimate.css">
+</head>
+<body>
+    <div class="container-fluid">
+      <!--première fenêtre : identité-->
+      <div class="row">
+        <div class="col-xs-offset-0 col-sm-offset-4 col-md-offset-6 col-lg-offset-7  col-xs-12 col-sm-6 col-md-5 col-lg-4">
+          <div class="row">
+            <div id="header" class="upIndex col-xs-offset-1 col-sm-offset-2 col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-11 col-lg-12">
+              <div class="row">
+                <h1 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! CV en ligne
+                  <div class="buttonPlace">
+                      <button class="reduct" type="button" name="button" title="reduct">-</button>
+                      <button type="button" name="button" title="grow">☐</button>
+                      <button type="button" name="button" title="close">&times;</button>
+                  </div>
+                </h1>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
+                  <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                </div>
+              </div>
+              <div class=row>
+                <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
+                <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                    <p><strong>HUIBANT, Corentin</strong></p>
+                    <p>11 rue de genlis</p>
+                    <p>02300 Bethancourt-en-Vaux</p>
+                    <p>Me contacter : 06 89 81 06 45</p>
+                    <a href="mailto=corentin.huibant@laposte.net">corentin.huibant@laposte.net</a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <input type="button" name="Supprimez" value="Supprimez" title="supress">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--deuxième fenêtre : les compétences-->
+      <div class="row space">
+        <div id="comput" class="upIndex col-xs-12 col-sm-7 col-md-7 col-lg-7">
+          <div class="row">
+              <h2 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! Mes compétences
+                <div class="buttonPlace">
+                  <button class="reduct" type="button" name="button" title="reduct">-</button>
+                  <button type="button" name="button" title="grow">☐</button>
+                  <button type="button" name="button" title="close">&times;</button>
+                </div>
+              </h2>
+          </div>
+          <div class="row">
+          <img id="navigator" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" src="contenu/logo2.gif" alt="navigator">
+          </div>
+          <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="whiteWindow">
+                <div class="row">
+                  <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id="brain">
+                      <img src="contenu/logo1.gif" alt="logo" title="brainLogo">
+                      <h3>Disque cerveau (:C)</h3>
+                        <div id="blueLine"></div>
+                        <p><em>Utilisez les liens ci-dessous pour accéder aux zones du cerveau (:C):</em></p>
+                      <ul>
+                        <li><a href="#">Mon CV</a></li>
+                        <li><a href="#">Mes compétences</a></li>
+                        <li><a href="#">Ma formation</a></li>
+                      </ul>
+                        <p><a href="#">Détruire l'ordinateur ou embaucher !</a></p>
+                  </div>
+                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                  <div class="row">
+                        <div class="noPadding col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <div class="centerise">
+                              <img src="contenu/Linux.png" alt="item" title="Linux">
+                            </div>
+                            <p>Linux...</p>
+                            <div>
+                              <div id="linux"></div>
+                            </div>
+                        </div>
+                        <div class="noPadding col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <div class="centerise">
+                              <img src="contenu/widows.png" alt="item" title="windows">
+                            </div>
+                            <p>Windows...</p>
+                            <div id="windows"></div>
+                        </div>
+                        <div class="noPadding col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <div class="centerise">
+                              <img src="contenu/nano.png" alt="item" title="Ligne de commande">
+                            </div>
+                            <p>CLI...</p>
+                            <div id="cli"></div>
+                        </div>
+                        <div class="noPadding col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <div class="centerise">
+                              <img src="contenu/item1.png" alt="item" title="Html5/CSS3">
+                            </div>
+                            <p>Html5/Css3...</p>
+                            <div id="htmlcss"></div>
+                        </div>
+                  </div>
+                  <div class="row">
+                        <div class="noPadding col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <div class="centerise">
+                              <img src="contenu/note2.png" alt="item" title="PHP">
+                            </div>
+                            <p>Php...</p>
+                            <div id="php"></div>
+                        </div>
+                        <div class="noPadding col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <div class="centerise">
+                              <img src="contenu/alien.png" alt="item" title="Github">
+                            </div>
+                            <p>Git/Github...</p>
+                            <div id="git"></div>
+                        </div>
+                        <div class="noPadding col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <div class="centerise">
+                              <img src="contenu/nano.png" alt="item" titile="Nano">
+                            </div>
+                              <p>Nano...</p>
+                              <div id="nano"></div>
+                        </div>
+                        <div class="noPadding col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <div class="centerise">
+                              <img src="contenu/vhost.png" alt="item" title="Vhost/Apache2">
+                            </div>
+                              <p>Vhost/Apache2...</p>
+                              <div id="vhost"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                          <div class="noPadding col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <div class="centerise">
+                              <img src="contenu/gimp.png" alt="item" title="Gimp">
+                            </div>
+                              <p>Gimp...</p>
+                              <div id="gimp"></div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <input type="button" name="Supprimez" value="Supprimez" title="supress">
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<!--troisième fenêtre : l'expérience'-->
+          <div class="row space">
+            <div id="xp" class ="upIndex col-xs-offset-4 col-sm-offset-4 col-md-offset-4 col-lg-offset-4 col-xs-12 col-sm-7 col-md-7 col-lg-7">
+              <div class="row">
+                <h2 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! Mon expérience
+                  <div class="buttonPlace">
+                    <button class="reduct" type="button" name="button" title="reduct">-</button>
+                    <button type="button" name="button" title="grow">☐</button>
+                    <button type="button" name="button" title="close">&times;</button>
+                  </div>
+                </h2>
+              </div>
+                <div class="row">
+                    <ul class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                      <li><strong>23/11/2015 – 05/12/2015</strong>
+                          <br>Conseiller de vente de Cultura, Villeneuve d'Ascq,
+                          <br><em>accueil des clients, gestion des rayons, exposition des produits.</em></li>
+                      <li><strong>22/08/2011 – 01/01/2013</strong>
+                          <br>Vendeur au Relay 1 de la gare Lille Europe,
+                          <br><em>entrées des stocks, vente, relation client, bilingue, optimisation affichage et des stocks.</em></li>
+                      <li><strong>15/07/2012 – 01/08/2012</strong>
+                          <br>Vendeur au Relay 2 de la gare Lille Europe,
+                          <br><em>entrées des stocks, vente, relation client, bilingue, optimisation affichage et des stocks.</em></li>
+                      <li><strong>01/07/2009 – 31/09/2009</strong>
+                          <br>Vendeur au Relay de la gare Marseille Saint-Charles,
+                          <br><em>entrées des stocks, vente, relation client, bilingue, optimisation affichage et des stocks.</em></li>
+                        </ul>
+                  </div>
+                <div class="row">
+                  <div class="col-xs-offset-7 col-sm-offset-7 col-md-offset-7 col-lg-offset-7 col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                      <input type="button" name="Supprimez" value="Supprimez" title="supress">
+                  </div>
+                </div>
+              </div>
+            </div>
+<!--quatrième fenêtre : la formation-->
+            <div class="row space">
+                <div id="formation" class="upIndex col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-10 col-md-9 col-lg-6">
+                  <div class="row">
+                      <h2 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! Formation et Diplômes
+                        <div class="buttonPlace">
+                          <button class="reduct" type="button" name="button" title="reduct">-</button>
+                          <button type="button" name="button" title="grow">☐</button>
+                          <button type="button" name="button" title="close">&times;</button>
+                        </div>
+                      </h2>
+                  </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                          <p><strong>Formation développeur web à l'E2N de noyon (2017)</strong></p>
+                          <p>Formation de 6 mois à temps plein, labellisée Grande École du numérique par l'état (équivalent Bac + 2).</p>
+                          <p><strong>BACCALAUREAT Littéraire (2008)</strong></p>
+                          <p>Obtention du Bac L, option cinéma et théatre au lycée Paul Claudel de Laon. </p>
+                          </div>
+                    </div>
+                  </div>
+              </div>
+<!--écriture des "fenêtres" servant à animer le site lors de son lancement.-->
+          <div id="cloneComput" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-7 col-lg-7">
+            <div class="row">
+                <h2 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! Battle Royal
+                  <div class="buttonPlace">
+                    <button class="reduct" type="button" name="button" title="reduct">-</button>
+                    <button type="button" name="button" title="grow">☐</button>
+                    <button type="button" name="button" title="close">&times;</button>
+                  </div>
+                </h2>
+            </div>
+            <div class="row">
+            <img id="navigator" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" src="contenu/logo2.gif" alt="navigator">
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="whiteWindow">
+                  <div class="row">
+                      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id="brain">
+                          <img src="contenu/logo1.gif" alt="logo" title="brainLogo">
+                          <h3>Disque cerveau (:C)</h3>
+                            <div id="blueLine"></div>
+                            <p><em>Utilisez les liens ci-dessous pour accéder aux zones du cerveau (:C):</em></p>
+                          <ul>
+                            <li><a href="#">Mon CV</a></li>
+                            <li><a href="#">Mes compétences</a></li>
+                            <li><a href="#">Ma formation</a></li>
+                          </ul>
+                            <p><a href="#">Détruire l'ordinateur ou embaucher !</a></p>
+                      </div>
+                      <img src="contenu/battleRoyal.jpg" alt="battleRoyal" class="col-xs-9 col-sm-9 col-md-9 col-lg-9"></img>
+                    </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                          <input type="button" name="Supprimez" value="Supprimez" title="supress">
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="cloneComputTwo" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-7 col-lg-7">
+                <div class="row">
+                    <h2 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! Battle Royal
+                      <div class="buttonPlace">
+                        <button class="reduct" type="button" name="button" title="reduct">-</button>
+                        <button type="button" name="button" title="grow">☐</button>
+                        <button type="button" name="button" title="close">&times;</button>
+                      </div>
+                    </h2>
+                </div>
+                <div class="row">
+                <img id="navigator" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" src="contenu/logo2.gif" alt="navigator">
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="whiteWindow">
+                    <div class="row">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id="brain">
+                            <img src="contenu/logo1.gif" alt="logo" title="brainLogo">
+                            <h3>Disque cerveau (:C)</h3>
+                              <div id="blueLine"></div>
+                              <p><em>Utilisez les liens ci-dessous pour accéder aux zones du cerveau (:C):</em></p>
+                            <ul>
+                              <li><a href="#">Mon CV</a></li>
+                              <li><a href="#">Mes compétences</a></li>
+                              <li><a href="#">Ma formation</a></li>
+                            </ul>
+                              <p><a href="#">Détruire l'ordinateur ou embaucher !</a></p>
+                        </div>
+                        <img src="contenu/battleRoyal.jpg" alt="battleRoyal" class="col-xs-9 col-sm-9 col-md-9 col-lg-9"></img>
+                      </div>
+                    </div>
+                  <div class="row">
+                        <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <input type="button" name="Supprimez" value="Supprimez" title="supress">
+                        </div>
+                    </div>
+                 </div>
+              </div>
+
+              <div id="cloneComputThree" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-7 col-lg-7">
+                <div class="row">
+                    <h2 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! Battle Royal
+                      <div class="buttonPlace">
+                        <button class="reduct" type="button" name="button" title="reduct">-</button>
+                        <button type="button" name="button" title="grow">☐</button>
+                        <button type="button" name="button" title="close">&times;</button>
+                      </div>
+                    </h2>
+                </div>
+                <div class="row">
+                <img id="navigator" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" src="contenu/logo2.gif" alt="navigator">
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="whiteWindow">
+                    <div class="row">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id="brain">
+                            <img src="contenu/logo1.gif" alt="logo" title="brainLogo">
+                            <h3>Disque cerveau (:C)</h3>
+                              <div id="blueLine"></div>
+                              <p><em>Utilisez les liens ci-dessous pour accéder aux zones du cerveau (:C):</em></p>
+                            <ul>
+                              <li><a href="#">Mon CV</a></li>
+                              <li><a href="#">Mes compétences</a></li>
+                              <li><a href="#">Ma formation</a></li>
+                            </ul>
+                              <p><a href="#">Détruire l'ordinateur ou embaucher !</a></p>
+                        </div>
+                        <img src="contenu/battleRoyal.jpg" alt="battleRoyal" class="col-xs-9 col-sm-9 col-md-9 col-lg-9"></img>
+                      </div>
+                    </div>
+                  <div class="row">
+                        <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <input type="button" name="Supprimez" value="Supprimez" title="supress">
+                        </div>
+                    </div>
+                 </div>
+              </div>
+
+              <div id="headerOne" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-4 col-lg-4">
+                <div class="row">
+                  <h1 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! CV en ligne
+                    <div class="buttonPlace">
+                        <button class="reduct" type="button" name="button" title="reduct">-</button>
+                        <button type="button" name="button" title="grow">☐</button>
+                        <button type="button" name="button" title="close">&times;</button>
+                    </div>
+                  </h1>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
+                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  </div>
+                </div>
+                <div class=row>
+                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
+                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                      <p><strong>HUIBANT, Corentin</strong></p>
+                      <p>11 rue de genlis</p>
+                      <p>02300 Bethancourt-en-Vaux</p>
+                      <p>Me contacter : 06 89 81 06 45</p>
+                      <a href="mailto=corentin.huibant@laposte.net">corentin.huibant@laposte.net</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <input type="button" name="Supprimez" value="Supprimez" title="supress">
+                  </div>
+                </div>
+              </div>
+
+              <div id="headerTwo" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-4 col-lg-4">
+                <div class="row">
+                  <h1 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! CV en ligne
+                    <div class="buttonPlace">
+                        <button class="reduct" type="button" name="button" title="reduct">-</button>
+                        <button type="button" name="button" title="grow">☐</button>
+                        <button type="button" name="button" title="close">&times;</button>
+                    </div>
+                  </h1>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
+                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  </div>
+                </div>
+                <div class=row>
+                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
+                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                      <p><strong>HUIBANT, Corentin</strong></p>
+                      <p>11 rue de genlis</p>
+                      <p>02300 Bethancourt-en-Vaux</p>
+                      <p>Me contacter : 06 89 81 06 45</p>
+                      <a href="mailto=corentin.huibant@laposte.net">corentin.huibant@laposte.net</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <input type="button" name="Supprimez" value="Supprimez" title="supress">
+                  </div>
+                </div>
+              </div>
+
+              <div id="headerThree" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-4 col-lg-4">
+                <div class="row">
+                  <h1 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! CV en ligne
+                    <div class="buttonPlace">
+                        <button class="reduct" type="button" name="button" title="reduct">-</button>
+                        <button type="button" name="button" title="grow">☐</button>
+                        <button type="button" name="button" title="close">&times;</button>
+                    </div>
+                  </h1>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
+                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  </div>
+                </div>
+                <div class=row>
+                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
+                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                      <p><strong>HUIBANT, Corentin</strong></p>
+                      <p>11 rue de genlis</p>
+                      <p>02300 Bethancourt-en-Vaux</p>
+                      <p>Me contacter : 06 89 81 06 45</p>
+                      <a href="mailto=corentin.huibant@laposte.net">corentin.huibant@laposte.net</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <input type="button" name="Supprimez" value="Supprimez" title="supress">
+                  </div>
+                </div>
+              </div>
+
+              <div id="headerFour" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-4 col-lg-4">
+                <div class="row">
+                  <h1 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! CV en ligne
+                    <div class="buttonPlace">
+                        <button class="reduct" type="button" name="button" title="reduct">-</button>
+                        <button type="button" name="button" title="grow">☐</button>
+                        <button type="button" name="button" title="close">&times;</button>
+                    </div>
+                  </h1>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
+                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  </div>
+                </div>
+                <div class=row>
+                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
+                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                      <p><strong>HUIBANT, Corentin</strong></p>
+                      <p>11 rue de genlis</p>
+                      <p>02300 Bethancourt-en-Vaux</p>
+                      <p>Me contacter : 06 89 81 06 45</p>
+                      <a href="mailto=corentin.huibant@laposte.net">corentin.huibant@laposte.net</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <input type="button" name="Supprimez" value="Supprimez" title="supress">
+                  </div>
+                </div>
+              </div>
+
+              <div id="headerFive" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-4 col-lg-4">
+                <div class="row">
+                  <h1 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! CV en ligne
+                    <div class="buttonPlace">
+                        <button class="reduct" type="button" name="button" title="reduct">-</button>
+                        <button type="button" name="button" title="grow">☐</button>
+                        <button type="button" name="button" title="close">&times;</button>
+                    </div>
+                  </h1>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
+                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  </div>
+                </div>
+                <div class=row>
+                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
+                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                      <p><strong>HUIBANT, Corentin</strong></p>
+                      <p>11 rue de genlis</p>
+                      <p>02300 Bethancourt-en-Vaux</p>
+                      <p>Me contacter : 06 89 81 06 45</p>
+                      <a href="mailto=corentin.huibant@laposte.net">corentin.huibant@laposte.net</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <input type="button" name="Supprimez" value="Supprimez" title="supress">
+                  </div>
+                </div>
+              </div>
+
+              <div id="headerSix" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-4 col-lg-4">
+                <div class="row">
+                  <h1 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! CV en ligne
+                    <div class="buttonPlace">
+                        <button class="reduct" type="button" name="button" title="reduct">-</button>
+                        <button type="button" name="button" title="grow">☐</button>
+                        <button type="button" name="button" title="close">&times;</button>
+                    </div>
+                  </h1>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
+                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  </div>
+                </div>
+                <div class=row>
+                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
+                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                      <p><strong>HUIBANT, Corentin</strong></p>
+                      <p>11 rue de genlis</p>
+                      <p>02300 Bethancourt-en-Vaux</p>
+                      <p>Me contacter : 06 89 81 06 45</p>
+                      <a href="mailto=corentin.huibant@laposte.net">corentin.huibant@laposte.net</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <input type="button" name="Supprimez" value="Supprimez" title="supress">
+                  </div>
+                </div>
+              </div>
+
+              <div id="headerSeven" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-4 col-lg-4">
+                <div class="row">
+                  <h1 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! CV en ligne
+                    <div class="buttonPlace">
+                        <button class="reduct" type="button" name="button" title="reduct">-</button>
+                        <button type="button" name="button" title="grow">☐</button>
+                        <button type="button" name="button" title="close">&times;</button>
+                    </div>
+                  </h1>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
+                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  </div>
+                </div>
+                <div class=row>
+                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
+                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                      <p><strong>HUIBANT, Corentin</strong></p>
+                      <p>11 rue de genlis</p>
+                      <p>02300 Bethancourt-en-Vaux</p>
+                      <p>Me contacter : 06 89 81 06 45</p>
+                      <a href="mailto=corentin.huibant@laposte.net">corentin.huibant@laposte.net</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <input type="button" name="Supprimez" value="Supprimez" title="supress">
+                  </div>
+                </div>
+              </div>
+
+              <div id="headerEight" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-4 col-lg-4">
+                <div class="row">
+                  <h1 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! CV en ligne
+                    <div class="buttonPlace">
+                        <button class="reduct" type="button" name="button" title="reduct">-</button>
+                        <button type="button" name="button" title="grow">☐</button>
+                        <button type="button" name="button" title="close">&times;</button>
+                    </div>
+                  </h1>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
+                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  </div>
+                </div>
+                <div class=row>
+                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
+                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                      <p><strong>HUIBANT, Corentin</strong></p>
+                      <p>11 rue de genlis</p>
+                      <p>02300 Bethancourt-en-Vaux</p>
+                      <p>Me contacter : 06 89 81 06 45</p>
+                      <a href="mailto=corentin.huibant@laposte.net">corentin.huibant@laposte.net</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <input type="button" name="Supprimez" value="Supprimez" title="supress">
+                  </div>
+                </div>
+              </div>
+
+              <div id="headerNine" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-4 col-lg-4">
+                <div class="row">
+                  <h1 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! CV en ligne
+                    <div class="buttonPlace">
+                        <button class="reduct" type="button" name="button" title="reduct">-</button>
+                        <button type="button" name="button" title="grow">☐</button>
+                        <button type="button" name="button" title="close">&times;</button>
+                    </div>
+                  </h1>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
+                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  </div>
+                </div>
+                <div class=row>
+                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
+                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                      <p><strong>HUIBANT, Corentin</strong></p>
+                      <p>11 rue de genlis</p>
+                      <p>02300 Bethancourt-en-Vaux</p>
+                      <p>Me contacter : 06 89 81 06 45</p>
+                      <a href="mailto=corentin.huibant@laposte.net">corentin.huibant@laposte.net</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <input type="button" name="Supprimez" value="Supprimez" title="supress">
+                  </div>
+                </div>
+              </div>
+
+              <div id="headerTen" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-4 col-lg-4">
+                <div class="row">
+                  <h1 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! CV en ligne
+                    <div class="buttonPlace">
+                        <button class="reduct" type="button" name="button" title="reduct">-</button>
+                        <button type="button" name="button" title="grow">☐</button>
+                        <button type="button" name="button" title="close">&times;</button>
+                    </div>
+                  </h1>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
+                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  </div>
+                </div>
+                <div class=row>
+                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
+                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                      <p><strong>HUIBANT, Corentin</strong></p>
+                      <p>11 rue de genlis</p>
+                      <p>02300 Bethancourt-en-Vaux</p>
+                      <p>Me contacter : 06 89 81 06 45</p>
+                      <a href="mailto=corentin.huibant@laposte.net">corentin.huibant@laposte.net</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <input type="button" name="Supprimez" value="Supprimez" title="supress">
+                  </div>
+                </div>
+              </div>
+
+              <div id="headerEleven" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-4 col-lg-4">
+                <div class="row">
+                  <h1 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! CV en ligne
+                    <div class="buttonPlace">
+                        <button class="reduct" type="button" name="button" title="reduct">-</button>
+                        <button type="button" name="button" title="grow">☐</button>
+                        <button type="button" name="button" title="close">&times;</button>
+                    </div>
+                  </h1>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
+                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  </div>
+                </div>
+                <div class=row>
+                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
+                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                      <p><strong>HUIBANT, Corentin</strong></p>
+                      <p>11 rue de genlis</p>
+                      <p>02300 Bethancourt-en-Vaux</p>
+                      <p>Me contacter : 06 89 81 06 45</p>
+                      <a href="mailto=corentin.huibant@laposte.net">corentin.huibant@laposte.net</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <input type="button" name="Supprimez" value="Supprimez" title="supress">
+                  </div>
+                </div>
+              </div>
+
+              <div id="headerTwelve" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-4 col-lg-4">
+                <div class="row">
+                  <h1 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! CV en ligne
+                    <div class="buttonPlace">
+                        <button class="reduct" type="button" name="button" title="reduct">-</button>
+                        <button type="button" name="button" title="grow">☐</button>
+                        <button type="button" name="button" title="close">&times;</button>
+                    </div>
+                  </h1>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
+                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  </div>
+                </div>
+                <div class=row>
+                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
+                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                      <p><strong>HUIBANT, Corentin</strong></p>
+                      <p>11 rue de genlis</p>
+                      <p>02300 Bethancourt-en-Vaux</p>
+                      <p>Me contacter : 06 89 81 06 45</p>
+                      <a href="mailto=corentin.huibant@laposte.net">corentin.huibant@laposte.net</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <input type="button" name="Supprimez" value="Supprimez" title="supress">
+                  </div>
+                </div>
+              </div>
+
+              <div id="headerThirteen" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-4 col-lg-4">
+                <div class="row">
+                  <h1 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! CV en ligne
+                    <div class="buttonPlace">
+                        <button class="reduct" type="button" name="button" title="reduct">-</button>
+                        <button type="button" name="button" title="grow">☐</button>
+                        <button type="button" name="button" title="close">&times;</button>
+                    </div>
+                  </h1>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
+                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  </div>
+                </div>
+                <div class=row>
+                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
+                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                      <p><strong>HUIBANT, Corentin</strong></p>
+                      <p>11 rue de genlis</p>
+                      <p>02300 Bethancourt-en-Vaux</p>
+                      <p>Me contacter : 06 89 81 06 45</p>
+                      <a href="mailto=corentin.huibant@laposte.net">corentin.huibant@laposte.net</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <input type="button" name="Supprimez" value="Supprimez" title="supress">
+                  </div>
+                </div>
+              </div>
+
+              <div id="headerFourteen" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-4 col-lg-4">
+                <div class="row">
+                  <h1 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! CV en ligne
+                    <div class="buttonPlace">
+                        <button class="reduct" type="button" name="button" title="reduct">-</button>
+                        <button type="button" name="button" title="grow">☐</button>
+                        <button type="button" name="button" title="close">&times;</button>
+                    </div>
+                  </h1>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
+                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  </div>
+                </div>
+                <div class=row>
+                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
+                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                      <p><strong>HUIBANT, Corentin</strong></p>
+                      <p>11 rue de genlis</p>
+                      <p>02300 Bethancourt-en-Vaux</p>
+                      <p>Me contacter : 06 89 81 06 45</p>
+                      <a href="mailto=corentin.huibant@laposte.net">corentin.huibant@laposte.net</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <input type="button" name="Supprimez" value="Supprimez" title="supress">
+                  </div>
+                </div>
+              </div>
+
+              <div id="headerFivteen" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-4 col-lg-4">
+                <div class="row">
+                  <h1 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! CV en ligne
+                    <div class="buttonPlace">
+                        <button class="reduct" type="button" name="button" title="reduct">-</button>
+                        <button type="button" name="button" title="grow">☐</button>
+                        <button type="button" name="button" title="close">&times;</button>
+                    </div>
+                  </h1>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
+                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  </div>
+                </div>
+                <div class=row>
+                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
+                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                      <p><strong>HUIBANT, Corentin</strong></p>
+                      <p>11 rue de genlis</p>
+                      <p>02300 Bethancourt-en-Vaux</p>
+                      <p>Me contacter : 06 89 81 06 45</p>
+                      <a href="mailto=corentin.huibant@laposte.net">corentin.huibant@laposte.net</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <input type="button" name="Supprimez" value="Supprimez" title="supress">
+                  </div>
+                </div>
+              </div>
+              <div id="cloneComputFour" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-7 col-lg-7">
+                <div class="row">
+                    <h2 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Soliterreur !
+                      <div class="buttonPlace">
+                        <button class="reduct" type="button" name="button" title="reduct">-</button>
+                        <button type="button" name="button" title="grow">☐</button>
+                        <button type="button" name="button" title="close">&times;</button>
+                      </div>
+                    </h2>
+                </div>
+                <div class="row">
+                <img id="navigator" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" src="contenu/solitaire.jpg" alt="jeu de solitaire">
+                </div>
+              </div>
+              <div id="cloneComputFive" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-4 col-lg-4">
+                <div class="row">
+                    <h2 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">ARGHHHHHH!
+                      <div class="buttonPlace">
+                        <button class="reduct" type="button" name="button" title="reduct">-</button>
+                        <button type="button" name="button" title="grow">☐</button>
+                        <button type="button" name="button" title="close">&times;</button>
+                      </div>
+                    </h2>
+                </div>
+                <div class="row">
+                <img id="navigator" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" src="contenu/playlogo.jpg" alt="barre de jeu">
+                </div>
+                <div class="row">
+                    <div class="row">
+                        <img src="contenu/Tron.gif" alt="Tron gif" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></img>
+                      </div>
+                  <div class="row">
+                        <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <input type="button" name="Supprimez" value="Supprimez" title="supress">
+                        </div>
+                    </div>
+                 </div>
+              </div>
+              <div id="headerSixteen" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-5 col-lg-5">
+                <div class="row">
+                  <h1 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Grand Computer One :
+                    <div class="buttonPlace">
+                        <button class="reduct" type="button" name="button" title="reduct">-</button>
+                        <button type="button" name="button" title="grow">☐</button>
+                        <button type="button" name="button" title="close">&times;</button>
+                    </div>
+                  </h1>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
+                    <p id="center" class="text-center">La réponse à la grande question sur la vie, l'univers et le reste est :</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <input type="button" name="Supprimez" value="42" title="supress">
+                  </div>
+                </div>
+              </div>
+              <div id="cloneComputSix" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-4 col-lg-4">
+                <div class="row">
+                    <h2 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">We have to go back !
+                      <div class="buttonPlace">
+                        <button class="reduct" type="button" name="button" title="reduct">-</button>
+                        <button type="button" name="button" title="grow">☐</button>
+                        <button type="button" name="button" title="close">&times;</button>
+                      </div>
+                    </h2>
+                </div>
+                <div class="row">
+                <img id="navigator" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" src="contenu/playlogo.jpg" alt="barre de jeu">
+                </div>
+                <div class="row">
+                    <div class="row">
+                        <img src="contenu/lost.gif" alt="décompte de la série Lost" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></img>
+                      </div>
+                  <div class="row">
+                        <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <input type="button" name="Supprimez" value="Supprimez" title="supress">
+                        </div>
+                    </div>
+                 </div>
+              </div>
+              <div id="headerSeventeen" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-9 col-lg-9">
+                <div class="row">
+                  <h1 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur !
+                    <div class="buttonPlace">
+                        <button class="reduct" type="button" name="button" title="reduct">-</button>
+                        <button type="button" name="button" title="grow">☐</button>
+                        <button type="button" name="button" title="close">&times;</button>
+                    </div>
+                  </h1>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
+                    <p id="center" class="text-center">Attention ! Un C.V.irus a été détecté sur votre ordinateur !</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <input id="stopAnimation" type="button" name="OKs" value="OK" title="supress">
+                  </div>
+                </div>
+              </div>
+<!--le footer -->
+            <div class="space row">
+              <footer class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="row btn-group dropup">
+                  <button type="button" class="dropdown-toggle" data-toggle="dropdown" id="menu">Erreur!</button>
+                  <ul class="dropdown-menu col-xs-4 col-sm-3 col-md-2 col-lg-1" id="openWindow" role="menu">
+                      <div id="bluebar"></div>
+                      <li id="ongletOne" title="error2017">Erreur ?<div class="direction">▶</div>
+                      </li>
+                    <br>
+                      <li class="onglet" title="error2017">Erreur! <div class="direction">▶</div>
+                      </li>
+                    <br>
+                      <li class="onglet" title="error2017">Error ! <div class="direction">▶</div>
+                      </li>
+                    <br>
+                      <li class="onglet" title="error2017">!ruerrE <div class="direction">▶</div>
+                      </li>
+                    <br>
+                      <li class="onglet" title="error2017">Erreu! <div class="direction">▶</div>
+                      </li>
+                    <br>
+                      <li class="onglet" title="error2017">Err!Erreu! <div class="direction">▶</div>
+                      </li>
+                    <br>
+                      <li class="onglet" title="error2017">ErErErErEr! <div class="direction">▶</div>
+                      </li>
+                    <br>
+                      <li class="onglet" title="error2017">Arghhhhhhhh ! <div class="direction">▶</div>
+                      </li>
+                    <br>
+                      <li class="onglet" title="error2017">?£$à0@[/!°# <div class="direction">▶</div>
+                      </li>
+                  </ul>
+                </div>
+                <div class="col-xs-offset-9 col-sm-offset-10 col-md-offset-10 col-lg-offset-10 col-xs-3 col-sm-2 col-md-2 col-lg-2" id="links">
+                    <a  href="https://github.com/corentin-huibant" target="_blank"><img src="contenu/github.png" alt="github"></a>
+                    <a  href="https://fr.linkedin.com/in/corentin-huibant-0b5650138" target="_blank"><img src="contenu/Linkedin.png" alt="linkedin"></a>
+                  <span class="col-xs-4 col-sm-4 col-md-3 col-lg-3">heure:reur</span>
+              </div>
+            </footer>
+          </div>
+        </div>
+       <script type="text/javascript">
+          //functions servant à modifier l'ordre d'affichage des fenêtres 2 et 3 via un click.
+          var upIndex = 1;
+          $(function() {
+            // fonction qui, sur le clique, permet de modifier l'index de toutes les fenêtres de classes .upIndex
+            $('.upIndex').click(function() {
+              $(this).css('z-index', upIndex++);
+            });
+            $('.reduct').click(function() {
+              $(this).parent().parent().parent().parent().css('opacity', '0');
+            });
+            $('#stopAnimation').click(function() {
+              //Toutes les classes stopAnimation disparaissent lors du clique, permettant d'y voir plus clair sur le cv.
+              $('.stopAnimation').remove();
+              //pour lancer l'animation css des barres de progressions, on n'impose l'id "progress--" seulement lors du clique
+              $('#linux').attr('id', 'progressLinux')
+              $('#windows').attr('id', 'progressWindows')
+              $('#cli').attr('id', 'progressCli')
+              $('#htmlcss').attr('id', 'progressHtmlcss')
+              $('#php').attr('id', 'progressPhp')
+              $('#git').attr('id', 'progressGit')
+              $('#nano').attr('id', 'progressNano')
+              $('#vhost').attr('id', 'progressVhost')
+              $('#gimp').attr('id', 'progressGimp')
+            })
+          });
+      </script>
+  </body>
+</html>
