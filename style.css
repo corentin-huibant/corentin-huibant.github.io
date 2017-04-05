@@ -1,5 +1,5 @@
 
-/*écriture d'une animation css qui donne l'impression que le fenêtres s'affichent une par une en changeant leur opacité à différentes intervales de temps*/
+/*écriture d'une animation css qui donne l'impression que les fenêtres s'affichent une par une en changeant leur opacité à différentes intervales de temps*/
 @keyframes attack {
   0% {opacity: 0;}
   20% {opacity: 0;}
@@ -31,17 +31,17 @@
   font-weight: bold;
   color: white;
 }
-#error { /*bloc d'erreur*/
+.error { /*bloc d'erreur*/
   background: white;
   font-weight: normal;
   border: groove white;
   height: 90px;
   padding-top: 30px;
 }
-#description {
+.description {
   padding-top: 3%;
 }
-#smiley {
+.smiley {
   margin: 8% 0% 0% 0%;
 }
 input[title="supress"] { /*boutton supprimer*/
@@ -61,27 +61,27 @@ input[title="supress"] { /*boutton supprimer*/
   animation-name: attack;
   animation-duration: 0.2s;
 }
-#navigator {
+.navigator {
   padding: 0%;
   margin-top: -9px;
 }
-#whiteWindow { /*petit bloc blanc des compétences*/
+.whiteWindow { /*petit bloc blanc des compétences*/
   background: white;
   border: 1px groove #FAFAFA;
   border: groove white;
   overflow-x: auto;
 }
-#brain { /*coté gauche de la fenêter des compétences, avec le logo windows*/
+.brain { /*coté gauche de la fenêter des compétences, avec le logo windows*/
   background: white;
 }
-#brain h3 {
+.brain h3 {
   font-size: 13px;
   font-weight: bold;
 }
-#brain p {
+.brain p {
   font-size: 11px;
 }
-#brain li {
+.brain li {
   font-size: 12px;
   margin-left: -29px;
   list-style-type: none;
@@ -101,8 +101,8 @@ input[title="supress"] { /*boutton supprimer*/
 img[title="brainLogo"] {
   width: 110px;
 }
-.centerise { /*centralisation des icones sur la "fenêtre" des compétences*/
-  margin-left: 40px;
+.centerise { /*centralisation des icones au sein de la "fenêtre" des compétences*/
+  margin-left: 27px;
   margin-top: 15px;
 }
 #xp { /*troisième bloc - l'expérience*/
@@ -229,6 +229,9 @@ ul {
 }
 li {
   margin-bottom: 1%;
+}
+.formation li {
+    margin-top: 15px;
 }
 a {
   color: blue;

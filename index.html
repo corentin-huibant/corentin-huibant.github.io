@@ -1,6 +1,5 @@
-
 <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width initial-scale=1.0">
@@ -30,13 +29,13 @@
                 </h1>
               </div>
               <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
-                  <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 error">
+                  <p class="text-center">Un virus a été détecté sur votre ordinateur !</p>
                 </div>
               </div>
               <div class=row>
-                <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
-                <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                <img class="smiley col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo">
+                <div class="description col-xs-7 col-sm-7 col-md-7 col-lg-7">
                     <p><strong>HUIBANT, Corentin</strong></p>
                     <p>11 rue de genlis</p>
                     <p>02300 Bethancourt-en-Vaux</p>
@@ -66,95 +65,26 @@
               </h2>
           </div>
           <div class="row">
-          <img id="navigator" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" src="contenu/logo2.gif" alt="navigator">
+          <img class="navigator col-xs-12 col-sm-12 col-md-12 col-lg-12" src="contenu/logo2.gif" alt="navigator">
           </div>
           <div class="row">
-              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="whiteWindow">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 whiteWindow">
                 <div class="row">
-                  <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id="brain">
+                  <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 brain">
                       <img src="contenu/logo1.gif" alt="logo" title="brainLogo">
                       <h3>Disque cerveau (:C)</h3>
-                        <div id="blueLine"></div>
+                        <div></div>
                         <p><em>Utilisez les liens ci-dessous pour accéder aux zones du cerveau (:C):</em></p>
                       <ul>
-                        <li><a href="#">Mon CV</a></li>
-                        <li><a href="#">Mes compétences</a></li>
-                        <li><a href="#">Ma formation</a></li>
+                        <li><a href="#!/langages">Langages</a></li>
+                        <li><a href="#!/OS">Environnements</a></li>
+                        <li><a href="#!/framebibli">Frameworks/Bibliothèques</a></li>
+                        <li><a href="#!/outils">Outils</a></li>
                       </ul>
                         <p><a href="#">Détruire l'ordinateur ou embaucher !</a></p>
                   </div>
                 <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
-                  <div class="row">
-                        <div class="noPadding col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                            <div class="centerise">
-                              <img src="contenu/Linux.png" alt="item" title="Linux">
-                            </div>
-                            <p>Linux...</p>
-                            <div>
-                              <div id="linux"></div>
-                            </div>
-                        </div>
-                        <div class="noPadding col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                            <div class="centerise">
-                              <img src="contenu/widows.png" alt="item" title="windows">
-                            </div>
-                            <p>Windows...</p>
-                            <div id="windows"></div>
-                        </div>
-                        <div class="noPadding col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                            <div class="centerise">
-                              <img src="contenu/nano.png" alt="item" title="Ligne de commande">
-                            </div>
-                            <p>CLI...</p>
-                            <div id="cli"></div>
-                        </div>
-                        <div class="noPadding col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                            <div class="centerise">
-                              <img src="contenu/item1.png" alt="item" title="Html5/CSS3">
-                            </div>
-                            <p>Html5/Css3...</p>
-                            <div id="htmlcss"></div>
-                        </div>
-                  </div>
-                  <div class="row">
-                        <div class="noPadding col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                            <div class="centerise">
-                              <img src="contenu/note2.png" alt="item" title="PHP">
-                            </div>
-                            <p>Php...</p>
-                            <div id="php"></div>
-                        </div>
-                        <div class="noPadding col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                            <div class="centerise">
-                              <img src="contenu/alien.png" alt="item" title="Github">
-                            </div>
-                            <p>Git/Github...</p>
-                            <div id="git"></div>
-                        </div>
-                        <div class="noPadding col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                            <div class="centerise">
-                              <img src="contenu/nano.png" alt="item" titile="Nano">
-                            </div>
-                              <p>Nano...</p>
-                              <div id="nano"></div>
-                        </div>
-                        <div class="noPadding col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                            <div class="centerise">
-                              <img src="contenu/vhost.png" alt="item" title="Vhost/Apache2">
-                            </div>
-                              <p>Vhost/Apache2...</p>
-                              <div id="vhost"></div>
-                        </div>
-                    </div>
-                    <div class="row">
-                          <div class="noPadding col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                            <div class="centerise">
-                              <img src="contenu/gimp.png" alt="item" title="Gimp">
-                            </div>
-                              <p>Gimp...</p>
-                              <div id="gimp"></div>
-                          </div>
-                      </div>
+                        <div ng-view></div>
                     </div>
                   </div>
                 </div>
@@ -179,19 +109,18 @@
                 </h2>
               </div>
                 <div class="row">
-                    <ul class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                      <li><strong>23/11/2015 – 05/12/2015</strong>
-                          <br>Conseiller de vente de Cultura, Villeneuve d'Ascq,
-                          <br><em>accueil des clients, gestion des rayons, exposition des produits.</em></li>
-                      <li><strong>22/08/2011 – 01/01/2013</strong>
-                          <br>Vendeur au Relay 1 de la gare Lille Europe,
-                          <br><em>entrées des stocks, vente, relation client, bilingue, optimisation affichage et des stocks.</em></li>
-                      <li><strong>15/07/2012 – 01/08/2012</strong>
-                          <br>Vendeur au Relay 2 de la gare Lille Europe,
-                          <br><em>entrées des stocks, vente, relation client, bilingue, optimisation affichage et des stocks.</em></li>
-                      <li><strong>01/07/2009 – 31/09/2009</strong>
-                          <br>Vendeur au Relay de la gare Marseille Saint-Charles,
-                          <br><em>entrées des stocks, vente, relation client, bilingue, optimisation affichage et des stocks.</em></li>
+                    <ul class="formation col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                      <li><strong>- 07/04/2017, formateur pour l'atelier coding "summer of code",</strong>
+                          <br><em>Initiation à la programmation via les outils CodeCombat et Codecademy.</em></li>
+                      <li><strong>- 15/03/2017 - 17/03/2017, travaux pratique - e-Commerce,</strong>
+                          <br><em>Réalisation d'une interface de vente avec envoie des articles vers un panier, suppession et la somme. 
+                          Langage : JavaScript. Librairie : JQuery.</em></li>
+                      <li><strong>- 20/02/2017 - 22/02/2017, travaux pratique - site responsive, </strong>
+                          <br><em>Mise en œuvre du framework Bootstrap sur la page d'acceuil d'un site populaire non-responsive.</em></li>
+                      <li><strong>- 23/11/2015 - 05/12/2015, Conseiller de vente de Cultura, Villeneuve d'Ascq, </strong>
+                          <br><em>Relationnel client, gestion des rayons, exposition des produits.</em></li>
+                      <li><strong>- 22/08/2011 - 01/01/2013, Vendeur au Relay 1 de la gare Lille Europe, </strong>
+                          <br><em>Relationnel client, rentrées des stocks, vente, bilingue, optimisation affichage et des stocks.</em></li>
                         </ul>
                   </div>
                 <div class="row">
@@ -235,15 +164,15 @@
                 </h2>
             </div>
             <div class="row">
-            <img id="navigator" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" src="contenu/logo2.gif" alt="navigator">
+            <img class="navigator col-xs-12 col-sm-12 col-md-12 col-lg-12" src="contenu/logo2.gif" alt="navigator">
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="whiteWindow">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 whiteWindow">
                   <div class="row">
-                      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id="brain">
+                      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 brain">
                           <img src="contenu/logo1.gif" alt="logo" title="brainLogo">
                           <h3>Disque cerveau (:C)</h3>
-                            <div id="blueLine"></div>
+                            <div></div>
                             <p><em>Utilisez les liens ci-dessous pour accéder aux zones du cerveau (:C):</em></p>
                           <ul>
                             <li><a href="#">Mon CV</a></li>
@@ -274,15 +203,15 @@
                     </h2>
                 </div>
                 <div class="row">
-                <img id="navigator" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" src="contenu/logo2.gif" alt="navigator">
+                <img class="navigator col-xs-12 col-sm-12 col-md-12 col-lg-12" src="contenu/logo2.gif" alt="navigator">
                 </div>
                 <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="whiteWindow">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 whiteWindow">
                     <div class="row">
-                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id="brain">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 brain">
                             <img src="contenu/logo1.gif" alt="logo" title="brainLogo">
                             <h3>Disque cerveau (:C)</h3>
-                              <div id="blueLine"></div>
+                              <div></div>
                               <p><em>Utilisez les liens ci-dessous pour accéder aux zones du cerveau (:C):</em></p>
                             <ul>
                               <li><a href="#">Mon CV</a></li>
@@ -291,7 +220,7 @@
                             </ul>
                               <p><a href="#">Détruire l'ordinateur ou embaucher !</a></p>
                         </div>
-                        <img src="contenu/battleRoyal.jpg" alt="battleRoyal" class="col-xs-9 col-sm-9 col-md-9 col-lg-9"></img>
+                        <img src="contenu/battleRoyal.jpg" alt="battleRoyal" class="col-xs-9 col-sm-9 col-md-9 col-lg-9"/>
                       </div>
                     </div>
                   <div class="row">
@@ -301,7 +230,6 @@
                     </div>
                  </div>
               </div>
-
               <div id="cloneComputThree" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-7 col-lg-7">
                 <div class="row">
                     <h2 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! Battle Royal
@@ -313,15 +241,15 @@
                     </h2>
                 </div>
                 <div class="row">
-                <img id="navigator" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" src="contenu/logo2.gif" alt="navigator">
+                <img class="navigator col-xs-12 col-sm-12 col-md-12 col-lg-12" src="contenu/logo2.gif" alt="navigator">
                 </div>
                 <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="whiteWindow">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 whiteWindow">
                     <div class="row">
-                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id="brain">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 brain">
                             <img src="contenu/logo1.gif" alt="logo" title="brainLogo">
                             <h3>Disque cerveau (:C)</h3>
-                              <div id="blueLine"></div>
+                              <div></div>
                               <p><em>Utilisez les liens ci-dessous pour accéder aux zones du cerveau (:C):</em></p>
                             <ul>
                               <li><a href="#">Mon CV</a></li>
@@ -330,7 +258,7 @@
                             </ul>
                               <p><a href="#">Détruire l'ordinateur ou embaucher !</a></p>
                         </div>
-                        <img src="contenu/battleRoyal.jpg" alt="battleRoyal" class="col-xs-9 col-sm-9 col-md-9 col-lg-9"></img>
+                        <img src="contenu/battleRoyal.jpg" alt="battleRoyal" class="col-xs-9 col-sm-9 col-md-9 col-lg-9"/>
                       </div>
                     </div>
                   <div class="row">
@@ -352,13 +280,13 @@
                   </h1>
                 </div>
                 <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
-                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 error">
+                    <p class="text-center">Un virus a été détecté sur votre ordinateur !</p>
                   </div>
                 </div>
                 <div class=row>
-                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
-                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                  <img class="smiley col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo">
+                  <div class="description col-xs-7 col-sm-7 col-md-7 col-lg-7">
                       <p><strong>HUIBANT, Corentin</strong></p>
                       <p>11 rue de genlis</p>
                       <p>02300 Bethancourt-en-Vaux</p>
@@ -372,7 +300,6 @@
                   </div>
                 </div>
               </div>
-
               <div id="headerTwo" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-4 col-lg-4">
                 <div class="row">
                   <h1 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! CV en ligne
@@ -384,13 +311,13 @@
                   </h1>
                 </div>
                 <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
-                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 error">
+                    <p class="text-center">Un virus a été détecté sur votre ordinateur !</p>
                   </div>
                 </div>
                 <div class=row>
-                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
-                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                  <img class="smiley col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo">
+                  <div class="description col-xs-7 col-sm-7 col-md-7 col-lg-7">
                       <p><strong>HUIBANT, Corentin</strong></p>
                       <p>11 rue de genlis</p>
                       <p>02300 Bethancourt-en-Vaux</p>
@@ -416,13 +343,13 @@
                   </h1>
                 </div>
                 <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
-                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 error">
+                    <p class="text-center">Un virus a été détecté sur votre ordinateur !</p>
                   </div>
                 </div>
                 <div class=row>
-                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
-                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                  <img class="smiley col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo">
+                  <div class="description col-xs-7 col-sm-7 col-md-7 col-lg-7">
                       <p><strong>HUIBANT, Corentin</strong></p>
                       <p>11 rue de genlis</p>
                       <p>02300 Bethancourt-en-Vaux</p>
@@ -436,7 +363,6 @@
                   </div>
                 </div>
               </div>
-
               <div id="headerFour" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-4 col-lg-4">
                 <div class="row">
                   <h1 class="head col-xs-12 col-sm-12 col-md-12 col-lg-12">Erreur ! CV en ligne
@@ -448,13 +374,13 @@
                   </h1>
                 </div>
                 <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
-                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 error">
+                    <p class="text-center">Un virus a été détecté sur votre ordinateur !</p>
                   </div>
                 </div>
                 <div class=row>
-                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
-                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                  <img class="smiley col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo">
+                  <div class="description col-xs-7 col-sm-7 col-md-7 col-lg-7">
                       <p><strong>HUIBANT, Corentin</strong></p>
                       <p>11 rue de genlis</p>
                       <p>02300 Bethancourt-en-Vaux</p>
@@ -480,13 +406,13 @@
                   </h1>
                 </div>
                 <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
-                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 error">
+                    <p class="text-center">Un virus a été détecté sur votre ordinateur !</p>
                   </div>
                 </div>
                 <div class=row>
-                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
-                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                  <img class="smiley col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo">
+                  <div class="description col-xs-7 col-sm-7 col-md-7 col-lg-7">
                       <p><strong>HUIBANT, Corentin</strong></p>
                       <p>11 rue de genlis</p>
                       <p>02300 Bethancourt-en-Vaux</p>
@@ -512,13 +438,13 @@
                   </h1>
                 </div>
                 <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
-                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 error">
+                    <p class="text-center">Un virus a été détecté sur votre ordinateur !</p>
                   </div>
                 </div>
                 <div class=row>
-                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
-                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                  <img class="smiley col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo">
+                  <div class="description col-xs-7 col-sm-7 col-md-7 col-lg-7">
                       <p><strong>HUIBANT, Corentin</strong></p>
                       <p>11 rue de genlis</p>
                       <p>02300 Bethancourt-en-Vaux</p>
@@ -544,13 +470,13 @@
                   </h1>
                 </div>
                 <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
-                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 error">
+                    <p class="text-center">Un virus a été détecté sur votre ordinateur !</p>
                   </div>
                 </div>
                 <div class=row>
-                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
-                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                  <img class="smiley col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo">
+                  <div class="description col-xs-7 col-sm-7 col-md-7 col-lg-7">
                       <p><strong>HUIBANT, Corentin</strong></p>
                       <p>11 rue de genlis</p>
                       <p>02300 Bethancourt-en-Vaux</p>
@@ -576,13 +502,13 @@
                   </h1>
                 </div>
                 <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
-                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 error">
+                    <p class="text-center">Un virus a été détecté sur votre ordinateur !</p>
                   </div>
                 </div>
                 <div class=row>
-                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
-                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                  <img class="smiley col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo">
+                  <div class="description col-xs-7 col-sm-7 col-md-7 col-lg-7">
                       <p><strong>HUIBANT, Corentin</strong></p>
                       <p>11 rue de genlis</p>
                       <p>02300 Bethancourt-en-Vaux</p>
@@ -608,13 +534,13 @@
                   </h1>
                 </div>
                 <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
-                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 error">
+                    <p class="text-center">Un virus a été détecté sur votre ordinateur !</p>
                   </div>
                 </div>
                 <div class=row>
-                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
-                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                  <img class="smiley col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo">
+                  <div class="description col-xs-7 col-sm-7 col-md-7 col-lg-7">
                       <p><strong>HUIBANT, Corentin</strong></p>
                       <p>11 rue de genlis</p>
                       <p>02300 Bethancourt-en-Vaux</p>
@@ -640,13 +566,13 @@
                   </h1>
                 </div>
                 <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
-                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 error">
+                    <p class="text-center">Un virus a été détecté sur votre ordinateur !</p>
                   </div>
                 </div>
                 <div class=row>
-                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
-                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                  <img class="smiley col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo">
+                  <div class="description col-xs-7 col-sm-7 col-md-7 col-lg-7">
                       <p><strong>HUIBANT, Corentin</strong></p>
                       <p>11 rue de genlis</p>
                       <p>02300 Bethancourt-en-Vaux</p>
@@ -672,13 +598,13 @@
                   </h1>
                 </div>
                 <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
-                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 error">
+                    <p class="text-center">Un virus a été détecté sur votre ordinateur !</p>
                   </div>
                 </div>
                 <div class=row>
-                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
-                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                  <img class="smiley col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo">
+                  <div class="description col-xs-7 col-sm-7 col-md-7 col-lg-7">
                       <p><strong>HUIBANT, Corentin</strong></p>
                       <p>11 rue de genlis</p>
                       <p>02300 Bethancourt-en-Vaux</p>
@@ -704,13 +630,13 @@
                   </h1>
                 </div>
                 <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
-                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 error">
+                    <p class="text-center">Un virus a été détecté sur votre ordinateur !</p>
                   </div>
                 </div>
                 <div class=row>
-                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
-                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                  <img class="smiley col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo">
+                  <div class="description col-xs-7 col-sm-7 col-md-7 col-lg-7">
                       <p><strong>HUIBANT, Corentin</strong></p>
                       <p>11 rue de genlis</p>
                       <p>02300 Bethancourt-en-Vaux</p>
@@ -736,13 +662,13 @@
                   </h1>
                 </div>
                 <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
-                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 error">
+                    <p class="text-center">Un virus a été détecté sur votre ordinateur !</p>
                   </div>
                 </div>
                 <div class=row>
-                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
-                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                  <img class="smiley col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo">
+                  <div class="description col-xs-7 col-sm-7 col-md-7 col-lg-7">
                       <p><strong>HUIBANT, Corentin</strong></p>
                       <p>11 rue de genlis</p>
                       <p>02300 Bethancourt-en-Vaux</p>
@@ -768,13 +694,13 @@
                   </h1>
                 </div>
                 <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
-                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 error">
+                    <p class="text-center">Un virus a été détecté sur votre ordinateur !</p>
                   </div>
                 </div>
                 <div class=row>
-                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
-                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                  <img class="smiley col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo"/>
+                  <div class="description col-xs-7 col-sm-7 col-md-7 col-lg-7">
                       <p><strong>HUIBANT, Corentin</strong></p>
                       <p>11 rue de genlis</p>
                       <p>02300 Bethancourt-en-Vaux</p>
@@ -800,13 +726,13 @@
                   </h1>
                 </div>
                 <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
-                    <p id="center" class="text-center">Un virus a été détecté sur votre ordinateur !</p>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 error">
+                    <p class="text-center">Un virus a été détecté sur votre ordinateur !</p>
                   </div>
                 </div>
                 <div class=row>
-                  <img class="col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo" id="smiley">
-                  <div id="description" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                  <img class="smiley col-xs-5 col-sm-5 col-md-5 col-lg-5" src="contenu/smiley1.png" alt="photo"/>
+                  <div class="description col-xs-7 col-sm-7 col-md-7 col-lg-7">
                       <p><strong>HUIBANT, Corentin</strong></p>
                       <p>11 rue de genlis</p>
                       <p>02300 Bethancourt-en-Vaux</p>
@@ -831,7 +757,7 @@
                     </h2>
                 </div>
                 <div class="row">
-                <img id="navigator" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" src="contenu/solitaire.jpg" alt="jeu de solitaire">
+                <img class="navigator col-xs-12 col-sm-12 col-md-12 col-lg-12" src="contenu/solitaire.jpg" alt="jeu de solitaire">
                 </div>
               </div>
               <div id="cloneComputFive" class="stopAnimation visible-lg visible-md hidden-sm hidden-xs col-md-4 col-lg-4">
@@ -845,11 +771,11 @@
                     </h2>
                 </div>
                 <div class="row">
-                <img id="navigator" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" src="contenu/playlogo.jpg" alt="barre de jeu">
+                <img class="navigator col-xs-12 col-sm-12 col-md-12 col-lg-12" src="contenu/playlogo.jpg" alt="barre de jeu"/>
                 </div>
                 <div class="row">
                     <div class="row">
-                        <img src="contenu/Tron.gif" alt="Tron gif" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></img>
+                        <img src="contenu/Tron.gif" alt="Tron gif" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"/>
                       </div>
                   <div class="row">
                         <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
@@ -869,8 +795,8 @@
                   </h1>
                 </div>
                 <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
-                    <p id="center" class="text-center">La réponse à la grande question sur la vie, l'univers et le reste est :</p>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 error">
+                    <p class="text-center">La réponse à la grande question sur la vie, l'univers et le reste est :</p>
                   </div>
                 </div>
                 <div class="row">
@@ -890,11 +816,11 @@
                     </h2>
                 </div>
                 <div class="row">
-                <img id="navigator" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" src="contenu/playlogo.jpg" alt="barre de jeu">
+                <img class="navigator col-xs-12 col-sm-12 col-md-12 col-lg-12" src="contenu/playlogo.jpg" alt="barre de jeu"/>
                 </div>
                 <div class="row">
                     <div class="row">
-                        <img src="contenu/lost.gif" alt="décompte de la série Lost" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></img>
+                        <img src="contenu/lost.gif" alt="décompte de la série Lost" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"/>
                       </div>
                   <div class="row">
                         <div class="col-xs-offset-8 col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-xs-4 col-sm-4 col-md-4 col-lg-4">
@@ -914,8 +840,8 @@
                   </h1>
                 </div>
                 <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="error">
-                    <p id="center" class="text-center">Attention ! Un C.V.irus a été détecté sur votre ordinateur !</p>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 error">
+                    <p class="text-center">Attention ! Un C.V.irus a été détecté sur votre ordinateur !</p>
                   </div>
                 </div>
                 <div class="row">
@@ -967,6 +893,10 @@
             </footer>
           </div>
         </div>
+        <script src="lib/angular.js" type="text/javascript"></script>
+        <script src="https://code.angularjs.org/1.6.3/angular-route.js"></script>
+        <script src="route.js" type="text/javascript"></script>
+        <script src="lib/route-styles.js" type="text/javascript"></script>
        <script type="text/javascript">
           //functions servant à modifier l'ordre d'affichage des fenêtres 2 et 3 via un click.
           var upIndex = 1;
@@ -981,17 +911,11 @@
             $('#stopAnimation').click(function() {
               //Toutes les classes stopAnimation disparaissent lors du clique, permettant d'y voir plus clair sur le cv.
               $('.stopAnimation').remove();
-              //pour lancer l'animation css des barres de progressions, on n'impose l'id "progress--" seulement lors du clique
-              $('#linux').attr('id', 'progressLinux')
-              $('#windows').attr('id', 'progressWindows')
-              $('#cli').attr('id', 'progressCli')
-              $('#htmlcss').attr('id', 'progressHtmlcss')
-              $('#php').attr('id', 'progressPhp')
-              $('#git').attr('id', 'progressGit')
-              $('#nano').attr('id', 'progressNano')
-              $('#vhost').attr('id', 'progressVhost')
-              $('#gimp').attr('id', 'progressGimp')
-            })
+              //pour lancer l'animation css des barres de progressions, on impose l'id "progress--" seulement lors du clique
+              $('#htmlcss').addClass('progressFifty');
+              $('#php').addClass('progressOne');
+              $('#JavaScript').addClass('progressFifteen');
+            });
           });
       </script>
       <script>
