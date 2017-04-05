@@ -168,7 +168,7 @@ img[alt="github"] {
 img[alt="linkedin"] {
   width: 15px;
   margin-bottom: 3px;
-  margin-left: -7px;
+  margin-left: 0px;
 }
 #openWindow { /*Début de la colone du menu défilant*/
   background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
