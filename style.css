@@ -52,6 +52,13 @@ input[title="supress"] { /*boutton supprimer*/
   margin-bottom: 9%;
   float: right;
 }
+input[title="supressComput"] {
+    background: #BAB3BA;
+    color: black;
+    font-size: 14px;
+    margin-top: 9%;
+    margin-bottom: 9%;
+}
 /*deuxième fenêtre - les compétences aquises*/
 #comput {
   background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
@@ -81,18 +88,8 @@ input[title="supress"] { /*boutton supprimer*/
 .brain p {
   font-size: 11px;
 }
-.brain li {
-  font-size: 12px;
-  margin-left: -29px;
-  list-style-type: none;
-}
 #comput span {
   font-size: 10px;
-  float: left;
-}
-.noPadding {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
   float: left;
 }
 .inline {
@@ -179,16 +176,29 @@ img[alt="linkedin"] {
   border-radius: 0;
 }
 #bluebar { /*La barre bleue verticale qui se trouve dans le menu*/
-  width: 100px;
-  background: blue;
+  width: 17px;
+  height: 467px;
+  Background: linear-gradient(to bottom, #04047C, #040C85, #061B8C, #082895, #09369C, #0A45A2, #0C3FA5, #0C51AE, #0C58B2, #0C68BB, #0B72C2, #0C77C6);
 }
 #ongletOne { /*les fausses catégories*/
   margin-left: 11%;
+  padding-left: 3%;
   padding-top: 9%;
   padding-bottom: 9%;
+  margin-top: -467px;
+  margin-bottom: 22px;
 }
 .onglet {
   margin-left: 11%;
+  padding-left: 3%;
+  padding-top: 9%;
+  padding-bottom: 9%;
+  margin-top: -11%;
+  margin-bottom: 22px;
+}
+#ongletLast {
+   margin-left: 11%;
+  padding-left: 3%;
   padding-top: 9%;
   padding-bottom: 9%;
   margin-top: -11%;
@@ -200,11 +210,12 @@ li[title="error2017"]:hover { /*La superposition bleue*/
 .direction { /*Petites fléchettes. Attention, elles influent sur les padding des opac*/
   text-align: right;
   font-size: 10px;
-  margin-top: -10%;
+  margin-top: -11%;
 }
 #menu { /*boutton menu*/
   color: #4A494F;
   background: right #BAB3BA;
+  margin-left: -15px; /*place le bouton du menu sur la droite sans prendre en compte le margin négatif des éléments animés*/
 }
 hr {
   color: blue;

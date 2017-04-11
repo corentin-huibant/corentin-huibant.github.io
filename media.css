@@ -5,6 +5,11 @@
   #header, #comput, #xp, #formation {
     margin: 0%;
   }
+  .brain li {
+  font-size: 9px;
+  margin-left: -45px;
+  list-style-type: none;
+}
 }
 @media (min-width: 768px) {
   #header {
@@ -14,6 +19,11 @@
     margin-top: -24%;
     margin-left: 1%;
   }
+  .brain li {
+  font-size: 9px;
+  margin-left: -39px;
+  list-style-type: none;
+}
   #xp {
     margin-top: -15.5%;
   }
@@ -33,6 +43,11 @@
     margin-top: -18%;
     margin-left: 1%;
   }
+  .brain li {
+  font-size: 10px;
+  margin-left: -29px;
+  list-style-type: none;
+}
   #xp {
     margin-top: -10.5%;
   }
@@ -53,6 +68,11 @@
     margin-top: -18%;
     margin-left: 1%;
   }
+  .brain li {
+  font-size: 12px;
+  margin-left: -29px;
+  list-style-type: none;
+}
   #xp {
     margin-top: -15.5%;
   }
