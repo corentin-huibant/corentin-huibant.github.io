@@ -120,25 +120,29 @@ img[title="brainLogo"] {
   font-size: 15px;
 }
 button[title="reduct"] {
+  font-size: 15px;
   height: 19px;
   width: 19px;
   background: #BAB3BA;
   color: black;
-  padding-bottom: 1%;
+  padding: 0px;
 }
 button[title="grow"] {
+  font-size: 15px;
   height: 19px;
   width: 19px;
   background: #BAB3BA;
   color: black;
-  padding-bottom: 1%;
+  padding-top: 1%;
+  padding: 0px;
 }
 button[title="close"] {
+  font-size: 15px;
   height: 19px;
   width: 19px;
   background: #BAB3BA;
   color: black;
-  padding-top: -90%;
+  padding: 0%;
 }
 .buttonPlace { /*place des boutons fermer, réduir et agrandir de la première fenêtre*/
   position: absolute;
