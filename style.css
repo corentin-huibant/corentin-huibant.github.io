@@ -102,6 +102,9 @@ img[title="brainLogo"] {
   margin-left: 27px;
   margin-top: 15px;
 }
+#centeriseAjax { /*centralisation des icones au sein de la "fenêtre" des compétences*/
+  margin-top: 15px;
+}
 #xp { /*troisième bloc - l'expérience*/
   background: linear-gradient(to left, #BCBCBC, #B8BAB8, #BABBBA, #BAB3BA);
   border: 3px ridge #BAB3BA;
@@ -259,4 +262,7 @@ a:hover {
 }
 span {
   margin-top: 10px;
+}
+.paragrapheReduce {
+    margin-top: -7px;
 }
