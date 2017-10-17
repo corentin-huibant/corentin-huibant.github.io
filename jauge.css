@@ -27,12 +27,12 @@
   0% {width : 0px;}
   20% {width : 14px;}
 }
-#progressTwo { /*fausse barre de progression CLI*/
+.progressTwo { /*fausse barre de progression CLI*/
   background-color: white;
   border: 1px ridge black;
   width: 100px;
 }
-#progressTwo:after { /*contenant de la fausse barre de progression*/
+.progressTwo:after { /*contenant de la fausse barre de progression*/
     content: "||||||||||";
     width: 14px;
     display: block;
